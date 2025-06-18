@@ -1,6 +1,6 @@
 # LangChain MCP – Restaurant Example
 
-A demonstration of using **Model Context Protocol (MCP)** to expose a restaurant recommendation tool that integrates with LangChain.
+A demonstration of using **Model Context Protocol (MCP)** to expose a restaurant interaction tool that integrates with LangChain.
 
 ---
 
