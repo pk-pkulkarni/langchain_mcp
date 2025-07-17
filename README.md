@@ -29,7 +29,20 @@ A demonstration of using **Model Context Protocol (MCP)** to expose a restaurant
    python restaurant_mcp.py
 ⚠️ *Make sure `restaurant_mcp.py` is running as a server* in your terminal before proceeding.
 
-3. **Run the client**  
+3. **Run the client(For testing)**  
 In a separate terminal, run:
 ```bash
 python mcp_client.py
+```
+
+4. **Run FastAPI Server**  
+Run File with uvicorn:
+```bash
+uvicorn mcp_client_api_chatbot:app --reload --port 8000
+```
+5. **Open chatbot.html**  
+Examples:
+```bash
+Give me veg menu
+Give me all soups
+```
